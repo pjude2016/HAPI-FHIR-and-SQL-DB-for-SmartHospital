@@ -1,0 +1,4643 @@
+{
+    "entry": [
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-264-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "30428-7",
+                            "display": "MCV RBC",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "MCV RBC"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-264-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-264-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "fL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "fL",
+                            "value": 94
+                        },
+                        "low": {
+                            "code": "fL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "fL",
+                            "value": 80
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: MCV RBC = 92 fL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "fL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "fL",
+                    "value": 92
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-264-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-265-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2160-0",
+                            "display": "Creat SerPl-mCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Creat SerPl-mCnc"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-265-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-265-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mg/dL",
+                            "value": 1.4
+                        },
+                        "low": {
+                            "code": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mg/dL",
+                            "value": 0.8
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Creat SerPl-mCnc = 1.63 mg/dL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mg/dL",
+                    "value": 1.63
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-265-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-266-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2951-2",
+                            "display": "Sodium SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Sodium SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-266-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-266-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 145
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 135
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Sodium SerPl-sCnc = 135 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 135
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-266-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-267-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2028-9",
+                            "display": "CO2 SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "CO2 SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-267-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-267-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 29
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 22
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: CO2 SerPl-sCnc = 27 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 27
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-267-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-268-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2075-0",
+                            "display": "Chloride SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Chloride SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-268-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-268-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 108
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 98
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Chloride SerPl-sCnc = 99 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 99
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-268-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-269-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2823-3",
+                            "display": "Potassium SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Potassium SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-269-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-269-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 5.5
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 3.5
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Potassium SerPl-sCnc = 4.1 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 4.1
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-269-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-270-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26464-8",
+                            "display": "WBC # Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "WBC # Bld"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-270-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-270-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "10*3/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*3/uL",
+                            "value": 11.5
+                        },
+                        "low": {
+                            "code": "10*3/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*3/uL",
+                            "value": 4.5
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: WBC # Bld = 12.1 10*3/uL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "10*3/uL",
+                    "value": 12.1
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-270-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-271-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "30385-9",
+                            "display": "RDW RBC-Rto",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "RDW RBC-Rto"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-271-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-271-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 14.5
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 11.5
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: RDW RBC-Rto = 12.4 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 12.4
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-271-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-272-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "718-7",
+                            "display": "Hgb Bld-mCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Hgb Bld-mCnc"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-272-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-272-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "g/dL",
+                            "value": 18
+                        },
+                        "low": {
+                            "code": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "g/dL",
+                            "value": 14
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Hgb Bld-mCnc = 17.5 g/dL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "g/dL",
+                    "value": 17.5
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-272-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-273-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "28542-9",
+                            "display": "PMV Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "PMV Bld"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-273-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-273-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "fL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "fL",
+                            "value": 9.6
+                        },
+                        "low": {
+                            "code": "fL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "fL",
+                            "value": 6.3
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: PMV Bld = 7.7 fL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "fL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "fL",
+                    "value": 7.7
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-273-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-274-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "30180-4",
+                            "display": "Basophils NFr Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Basophils NFr Bld"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-274-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-274-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 2
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 0
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Basophils NFr Bld = 0 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 0
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-274-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-275-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "10466-1",
+                            "display": "Anion Gap3 SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Anion Gap3 SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-275-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-275-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 0
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 0
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Anion Gap3 SerPl-sCnc = 9 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 9
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-275-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-276-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26478-8",
+                            "display": "Lymphocytes NFr Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Lymphocytes NFr Bld"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-276-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-276-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 42
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 18
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Lymphocytes NFr Bld = 20 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 20
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-276-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-277-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26515-7",
+                            "display": "Platelet # Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Platelet # Bld"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-277-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-277-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "10*3/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*3/uL",
+                            "value": 450
+                        },
+                        "low": {
+                            "code": "10*3/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*3/uL",
+                            "value": 150
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Platelet # Bld = 273 10*3/uL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "10*3/uL",
+                    "value": 273
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-277-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-278-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26485-3",
+                            "display": "Monocytes NFr Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Monocytes NFr Bld"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-278-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-278-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 11
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 2
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Monocytes NFr Bld = 10 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 10
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-278-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-279-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "785-6",
+                            "display": "MCH RBC Qn Auto",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "MCH RBC Qn Auto"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-279-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-279-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "pg",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "pg",
+                            "value": 32
+                        },
+                        "low": {
+                            "code": "pg",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "pg",
+                            "value": 26
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: MCH RBC Qn Auto = 32.4 pg</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "pg",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "pg",
+                    "value": 32.4
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-279-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-280-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "789-8",
+                            "display": "RBC # Bld Auto",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "RBC # Bld Auto"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-280-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-280-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "10*6/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*6/uL",
+                            "value": 6
+                        },
+                        "low": {
+                            "code": "10*6/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*6/uL",
+                            "value": 4.6
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: RBC # Bld Auto = 5.41 10*6/uL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "10*6/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "10*6/uL",
+                    "value": 5.41
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-280-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-281-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "786-4",
+                            "display": "MCHC RBC Auto-mCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "MCHC RBC Auto-mCnc"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-281-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-281-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "g/dL",
+                            "value": 36
+                        },
+                        "low": {
+                            "code": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "g/dL",
+                            "value": 32
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: MCHC RBC Auto-mCnc = 35.2 g/dL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "g/dL",
+                    "value": 35.2
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-281-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-282-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "770-8",
+                            "display": "Neutrophils NFr Bld Auto",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Neutrophils NFr Bld Auto"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-282-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-282-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 75
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 50
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Neutrophils NFr Bld Auto = 69 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 69
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-282-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-283-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26450-7",
+                            "display": "Eosinophil NFr Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Eosinophil NFr Bld"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-283-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-283-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 3
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 0
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: Eosinophil NFr Bld = 1 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 1
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-283-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-284-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "3094-0",
+                            "display": "BUN SerPl-mCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "BUN SerPl-mCnc"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-284-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-284-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mg/dL",
+                            "value": 20
+                        },
+                        "low": {
+                            "code": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mg/dL",
+                            "value": 5
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: BUN SerPl-mCnc = 20 mg/dL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mg/dL",
+                    "value": 20
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-284-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-285-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "1648-5",
+                            "display": "TB Wheal 3D p 5 TU Diam",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "TB Wheal 3D p 5 TU Diam"
+                },
+                "effectiveDateTime": "2009-03-20",
+                "id": "nhs-285-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-285-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mm",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mm",
+                            "value": 1.3
+                        },
+                        "low": {
+                            "code": "mm",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mm",
+                            "value": 0.1
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-20: TB Wheal 3D p 5 TU Diam = 1.2 mm</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mm",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mm",
+                    "value": 1.2
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-285-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-286-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26515-7",
+                            "display": "Platelet # Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Platelet # Bld"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-286-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-286-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "10*3/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*3/uL",
+                            "value": 450
+                        },
+                        "low": {
+                            "code": "10*3/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*3/uL",
+                            "value": 150
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Platelet # Bld = 201 10*3/uL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "10*3/uL",
+                    "value": 201
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-286-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-287-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "1648-5",
+                            "display": "TB Wheal 3D p 5 TU Diam",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "TB Wheal 3D p 5 TU Diam"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-287-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-287-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mm",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mm",
+                            "value": 1.3
+                        },
+                        "low": {
+                            "code": "mm",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mm",
+                            "value": 0.1
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: TB Wheal 3D p 5 TU Diam = 0.6 mm</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mm",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mm",
+                    "value": 0.6
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-287-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-288-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "786-4",
+                            "display": "MCHC RBC Auto-mCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "MCHC RBC Auto-mCnc"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-288-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-288-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "g/dL",
+                            "value": 36
+                        },
+                        "low": {
+                            "code": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "g/dL",
+                            "value": 32
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: MCHC RBC Auto-mCnc = 34.6 g/dL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "g/dL",
+                    "value": 34.6
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-288-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-289-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "785-6",
+                            "display": "MCH RBC Qn Auto",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "MCH RBC Qn Auto"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-289-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-289-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "pg",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "pg",
+                            "value": 32
+                        },
+                        "low": {
+                            "code": "pg",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "pg",
+                            "value": 26
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: MCH RBC Qn Auto = 32.3 pg</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "pg",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "pg",
+                    "value": 32.3
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-289-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-290-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "30428-7",
+                            "display": "MCV RBC",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "MCV RBC"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-290-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-290-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "fL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "fL",
+                            "value": 94
+                        },
+                        "low": {
+                            "code": "fL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "fL",
+                            "value": 80
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: MCV RBC = 93 fL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "fL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "fL",
+                    "value": 93
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-290-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-291-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2160-0",
+                            "display": "Creat SerPl-mCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Creat SerPl-mCnc"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-291-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-291-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mg/dL",
+                            "value": 1.4
+                        },
+                        "low": {
+                            "code": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mg/dL",
+                            "value": 0.8
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Creat SerPl-mCnc = 0.99 mg/dL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mg/dL",
+                    "value": 0.99
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-291-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-292-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2951-2",
+                            "display": "Sodium SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Sodium SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-292-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-292-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 145
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 135
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Sodium SerPl-sCnc = 142 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 142
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-292-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-293-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2028-9",
+                            "display": "CO2 SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "CO2 SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-293-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-293-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 29
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 22
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: CO2 SerPl-sCnc = 24 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 24
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-293-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-294-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2075-0",
+                            "display": "Chloride SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Chloride SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-294-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-294-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 108
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 98
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Chloride SerPl-sCnc = 109 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 109
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-294-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-295-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "2823-3",
+                            "display": "Potassium SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Potassium SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-295-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-295-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 5.5
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 3.5
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Potassium SerPl-sCnc = 3.8 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 3.8
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-295-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-296-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26464-8",
+                            "display": "WBC # Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "WBC # Bld"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-296-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-296-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "10*3/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*3/uL",
+                            "value": 11.5
+                        },
+                        "low": {
+                            "code": "10*3/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*3/uL",
+                            "value": 4.5
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: WBC # Bld = 7.8 10*3/uL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "10*3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "10*3/uL",
+                    "value": 7.8
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-296-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-297-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "718-7",
+                            "display": "Hgb Bld-mCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Hgb Bld-mCnc"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-297-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-297-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "g/dL",
+                            "value": 18
+                        },
+                        "low": {
+                            "code": "g/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "g/dL",
+                            "value": 14
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Hgb Bld-mCnc = 15.3 g/dL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "g/dL",
+                    "value": 15.3
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-297-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-298-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "30180-4",
+                            "display": "Basophils NFr Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Basophils NFr Bld"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-298-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-298-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 2
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 0
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Basophils NFr Bld = 0 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 0
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-298-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-299-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26450-7",
+                            "display": "Eosinophil NFr Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Eosinophil NFr Bld"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-299-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-299-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 3
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 0
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Eosinophil NFr Bld = 3 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 3
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-299-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-300-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26485-3",
+                            "display": "Monocytes NFr Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Monocytes NFr Bld"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-300-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-300-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 11
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 2
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Monocytes NFr Bld = 8 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 8
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-300-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-301-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26478-8",
+                            "display": "Lymphocytes NFr Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Lymphocytes NFr Bld"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-301-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-301-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 42
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 18
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Lymphocytes NFr Bld = 39 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 39
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-301-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-302-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "3094-0",
+                            "display": "BUN SerPl-mCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "BUN SerPl-mCnc"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-302-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-302-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mg/dL",
+                            "value": 20
+                        },
+                        "low": {
+                            "code": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mg/dL",
+                            "value": 5
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: BUN SerPl-mCnc = 14 mg/dL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mg/dL",
+                    "value": 14
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-302-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-303-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "789-8",
+                            "display": "RBC # Bld Auto",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "RBC # Bld Auto"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-303-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-303-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "10*6/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*6/uL",
+                            "value": 6
+                        },
+                        "low": {
+                            "code": "10*6/uL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "10*6/uL",
+                            "value": 4.6
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: RBC # Bld Auto = 4.74 10*6/uL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "10*6/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "10*6/uL",
+                    "value": 4.74
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-303-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-304-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "30385-9",
+                            "display": "RDW RBC-Rto",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "RDW RBC-Rto"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-304-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-304-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 14.5
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 11.5
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: RDW RBC-Rto = 12.3 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 12.3
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-304-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-305-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "28542-9",
+                            "display": "PMV Bld",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "PMV Bld"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-305-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-305-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "fL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "fL",
+                            "value": 9.6
+                        },
+                        "low": {
+                            "code": "fL",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "fL",
+                            "value": 6.3
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: PMV Bld = 8.6 fL</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "fL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "fL",
+                    "value": 8.6
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-305-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-306-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "10466-1",
+                            "display": "Anion Gap3 SerPl-sCnc",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Anion Gap3 SerPl-sCnc"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-306-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-306-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 0
+                        },
+                        "low": {
+                            "code": "mmol/L",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "mmol/L",
+                            "value": 0
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Anion Gap3 SerPl-sCnc = 9 mmol/L</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "mmol/L",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mmol/L",
+                    "value": 9
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-306-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-307-lab"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "Laboratory",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "770-8",
+                            "display": "Neutrophils NFr Bld Auto",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Neutrophils NFr Bld Auto"
+                },
+                "effectiveDateTime": "2009-03-24",
+                "id": "nhs-307-lab",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-307-lab"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "high": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 75
+                        },
+                        "low": {
+                            "code": "%",
+                            "system": "http://unitsofmeasure.org",
+                            "unit": "%",
+                            "value": 50
+                        },
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "normal",
+                                    "display": "Normal Range",
+                                    "system": "http://hl7.org/fhir/referencerange-meaning"
+                                }
+                            ],
+                            "text": "Normal Range"
+                        }
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">2009-03-24: Neutrophils NFr Bld Auto = 50 %</div>",
+                    "status": "generated"
+                },
+                "valueQuantity": {
+                    "code": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "%",
+                    "value": 50
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-307-lab"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-74"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "37796009",
+                            "display": "Migraine",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Migraine"
+                },
+                "id": "nhs-Condition-74",
+                "onsetDateTime": "2004-12-20",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Migraine</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-74"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-75"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "25374005",
+                            "display": "Other and unspecified noninfectious gastroenteritis and colitis",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Other and unspecified noninfectious gastroenteritis and colitis"
+                },
+                "id": "nhs-Condition-75",
+                "onsetDateTime": "2004-12-27",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Other and unspecified noninfectious gastroenteritis and colitis</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-75"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-76"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "16932000",
+                            "display": "Nausea and vomiting",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Nausea and vomiting"
+                },
+                "id": "nhs-Condition-76",
+                "onsetDateTime": "2005-02-01",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Nausea and vomiting</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-76"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-77"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "210682000",
+                            "display": "Open wound of knee, leg [except thigh], and ankle, without mention of complication",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Open wound of knee, leg [except thigh], and ankle, without mention of complication"
+                },
+                "id": "nhs-Condition-77",
+                "onsetDateTime": "2007-01-24",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Open wound of knee, leg [except thigh], and ankle, without mention of complication</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-77"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-78"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "28651003",
+                            "display": "Orthostatic hypotension",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Orthostatic hypotension"
+                },
+                "id": "nhs-Condition-78",
+                "onsetDateTime": "2008-03-25",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Orthostatic hypotension</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-78"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-79"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "79890006",
+                            "display": "Anorexia",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Anorexia"
+                },
+                "id": "nhs-Condition-79",
+                "onsetDateTime": "2008-11-15",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Anorexia</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-79"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-80"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "24199005",
+                            "display": "Clinical finding",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Clinical finding"
+                },
+                "id": "nhs-Condition-80",
+                "onsetDateTime": "2008-11-15",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Clinical finding</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-80"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-81"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "35489007",
+                            "display": "Depressive disorder",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Depressive disorder"
+                },
+                "id": "nhs-Condition-81",
+                "onsetDateTime": "2008-11-15",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Depressive disorder</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-81"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-82"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "91175000",
+                            "display": "Seizure",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Seizure"
+                },
+                "id": "nhs-Condition-82",
+                "onsetDateTime": "2008-11-15",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Seizure</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-82"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Condition/nhs-Condition-83"
+            },
+            "resource": {
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "85005007",
+                            "display": "Cannabis dependence",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Cannabis dependence"
+                },
+                "id": "nhs-Condition-83",
+                "onsetDateTime": "2008-11-24",
+                "resourceType": "Condition",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Cannabis dependence</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Condition/nhs-Condition-83"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Observation/nhs-smokingstatus-32"
+            },
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "social-history",
+                                "display": "Social History",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "Social History"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "72166-2",
+                            "display": "Tobacco smoking status",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Tobacco smoking status"
+                },
+                "effectiveDateTime": "2016-03-18",
+                "id": "nhs-smokingstatus-32",
+                "identifier": [
+                    {
+                        "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+                        "use": "official",
+                        "value": "nhs-32"
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Practitioner/nhs-Practitioner-71482713"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tobacco smoking status: Unknown if ever smoked</div>",
+                    "status": "generated"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "266927001",
+                            "display": "Unknown if ever smoked",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Unknown if ever smoked"
+                },
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/Observation/nhs-smokingstatus-32"
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "AllergyIntolerance/nhs-AllergyIntolerance-44"
+            },
+            "resource": {
+                "assertedDate": "2000",
+                "clinicalStatus": "active",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "716186003",
+                            "display": "No known allergies",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "No known allergies"
+                },
+                "id": "nhs-AllergyIntolerance-44",
+                "patient": {
+                    "reference": "Patient/nhs-1951076"
+                },
+                "resourceType": "AllergyIntolerance",
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No known allergies</div>",
+                    "status": "generated"
+                },
+                "verificationStatus": "confirmed",
+                "meta": {
+                    "tag": [
+                        {
+                            "system": "https://smarthealthit.org/tags",
+                            "code": "nhs"
+                        }
+                    ]
+                }
+            },
+            "fullUrl": "/AllergyIntolerance/nhs-AllergyIntolerance-44"
+        }
+    ],
+    "resourceType": "Bundle",
+    "type": "transaction"
+}
