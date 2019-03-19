@@ -22,7 +22,7 @@ From the previous step, we have the sample data loaded in the out folder. This c
 node tag-uploader -d out -t "nhs" -w
 node tag-uploader -d out -t "nhs" -S http://smarthospitalhapifhir.azurewebsites.net/hapi-fhir-jpaserver-example/baseDstu3
 
-## SQL DB COPY
+## SQL Database Copy
 An sql db copy of the UCL Smart Hospital project database is provided in the azure-sql-db-copy. It contains all working tables and data up to 18-03-2019.
 
 The .bacpac file must be updated to Azure Storage as blob data. Then an Azure Data Storage service must be created to later on import a database from the .bacpac file stored in Azure Storage.
