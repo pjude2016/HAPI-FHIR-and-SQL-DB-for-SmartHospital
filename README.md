@@ -8,7 +8,7 @@ Go to https://github.com/hansenms/fhir-azure/tree/master/hapi-fhir-sql and follo
 A .war file will need to be generated for deployment. To do this follow the instructions on https://github.com/hansenms/fhir-azure/tree/master/hapi-fhir-sql. Then copy the hapi-fhir-jpaserver-example.war (from the target folder) file to the D:\home\site\wwwroot\webapps folder of the Azure Web App (using the Kudu console).
 After deployment visit the web app (e.g. https://WEBSITENAME.azurewebsites.net/hapi-fhir-jpaserver-example/) with a browser to make sure it is up and running.
 
-## Uploading mock data
+### Uploading mock data
 The next step is to generate sample data on the FHIR server hosted on Azure. To do this follow the instructions from https://github.com/smart-on-fhir/sample-patients-stu3. You will need to run a command like this using python 2:
 
 python2 generate.py --write-fhir ../out --id-prefix "nhs"
